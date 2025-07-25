@@ -1,20 +1,19 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  max-width: 1140px;
-  justify-content: center;
-  margin: 20px 30px;
-  margin-left: 600px;
-  margin-right: 600px;
+}
 
-    
+ .container, .plant-section, .deals-section, .newsletter, .footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 body {
   
   background-color: #FFFFFF;
   justify-content: center;
-
-  
+ 
   
 }
 
@@ -25,6 +24,8 @@ header {
   padding: 20px 40px;
   background-color: #FFFFFF;
   flex-wrap: wrap;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .logo img {
@@ -69,7 +70,8 @@ nav {
   align-items: center;
   padding: 40px;
   flex-wrap: wrap;
-  
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 
@@ -268,7 +270,7 @@ body {
   width: 600px;
   height: auto;
   display: inline-block;
-  max-width: 1140px;
+  
 
   
   
@@ -281,17 +283,17 @@ body {
   display: block;
   max-width: auto;
   margin-left: 20px;
+  
 }
 
 .badge {
   position: absolute;
   top: 0px;
   right: 0px;
-  width: 286px;
-  height: 286PX;
-  z-index: 10;
-  transform: translateX(497);
-  transform: translateY(-2072);
+  width: 20px;
+  height: 20px;
+  transform: translate(80px, -100px);
+  
   
 }
 
@@ -322,7 +324,7 @@ body {
   line-height: 1.6;
 }
 
-/* ✅ Responsive Design */
+/*  Responsive Design */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -460,11 +462,6 @@ body {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 
 
@@ -523,6 +520,7 @@ body {
   background-color: #FFFFFF;
   padding: 40px 20px;
   
+  
 }
 
 .footer-container {
@@ -578,7 +576,7 @@ body {
   width: 100%;
   margin-top: 20px;
   display: flex;
-  justify-items: right;
+  justify-content: right;
   gap: 20px;
   
   
@@ -587,6 +585,7 @@ body {
 .footer-social img {
   width: 30px;
   height: 30px;
+  
 }
 
 /* Responsive for Mobile */
@@ -612,14 +611,19 @@ body {
   .footer-container {
     flex-direction: column;
     text-align: center;
+    justify-content: left;
   }
 
   .footer-links {
     flex-direction: column;
-    align-items: center;
+    align-items: left;
+    justify-items: left;
   }
 
   .footer-links div {
     margin-bottom: 20px;
+  }
+  .footer-social{
+    justify-content: left;
   }
 }
