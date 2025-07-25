@@ -3,13 +3,18 @@
   max-width: 1140px;
   justify-content: center;
   margin: 20px 30px;
+  margin-left: 600px;
+  margin-right: 600px;
 
     
 }
 
 body {
   
-  background-color: #f9f9f9;
+  background-color: #FFFFFF;
+  justify-content: center;
+
+  
   
 }
 
@@ -18,7 +23,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: white;
+  background-color: #FFFFFF;
   flex-wrap: wrap;
 }
 
@@ -33,6 +38,7 @@ nav {
   gap: 20px;
   margin: 20px 30px;
   max-width: 1140px;
+  justify-content: center;
 }
 .home{
   color: #252432;
@@ -420,7 +426,7 @@ body {
   margin-bottom: 8px;
 }
 
-.zebo {
+.zabo {
   color: #FFFFFF;
   text-decoration: underline;
   font-size: 28px;
@@ -470,7 +476,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   padding: 100px 20px;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   max-width: 1140px;
   margin-top: 70px;
@@ -505,7 +511,7 @@ body {
 
 .newsletter button {
   background-color: #f25c05;
-  color: white;
+  color: #FFFFFF;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
